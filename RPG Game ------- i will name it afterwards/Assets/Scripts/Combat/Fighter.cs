@@ -117,6 +117,7 @@ namespace RPG.Combat
         {
             // animator.SetTrigger("dontAttack");
             target = null;
+            GetComponent<Mover>().Cancel();
         }
 
     }
