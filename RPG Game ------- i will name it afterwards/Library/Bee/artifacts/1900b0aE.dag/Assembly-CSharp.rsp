@@ -335,6 +335,7 @@
 "Assets/Scripts/Movement/Mover.cs"
 "Assets/Scripts/Movement/PatrolPath.cs"
 "Assets/Scripts/Movement/PlayerController.cs"
+"Assets/Scripts/SceneManagement/Portal.cs"
 -langversion:8.0
 
 /deterministic
