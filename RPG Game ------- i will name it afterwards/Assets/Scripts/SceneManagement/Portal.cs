@@ -27,12 +27,16 @@ namespace RPG.SceneManagement
         }
 
         private IEnumerator Transition()
-        {
+        {   
             DontDestroyOnLoad(gameObject);
+
+            Fadar fadar = FindObjectOfType<Fadar>();
+            yield return fadar.FadeOut(1f);
             yield return SceneManager.LoadSceneAsync(buildSceneIndex);
-            
             Portal otherPortal = GetOtherPortal();
             UpdatePlayer(otherPortal);
+            yield return new WaitForSeconds(.5f);
+            yield return fadar.FadeIn(1.5f);
 
             Destroy(gameObject);
         }
