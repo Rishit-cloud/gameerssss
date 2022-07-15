@@ -10,7 +10,7 @@ namespace RPG.Cinematics
         bool isTriggered = false;
         void OnTriggerEnter(Collider collider)
         {
-            if (!isTriggered && collider.gameObject.tag == "Player") 
+            if (!isTriggered && collider.gameObject.tag == "Player")
             {
                 isTriggered = true;
                 GetComponent<PlayableDirector>().Play();

@@ -4,10 +4,11 @@ using UnityEngine;
 using RPG.Control;
 using RPG.Combat;
 using UnityEngine.AI;
+using RPG.Saving;
 
 namespace RPG.Core
 {
-    public class Health : MonoBehaviour
+    public class Health : MonoBehaviour, ISaveable
     {
         AIController aiController;
         Fighter fighter;
@@ -44,7 +45,7 @@ namespace RPG.Core
                 return;
             }
             isDead = true;
-            animator.SetTrigger("die");
+            GetComponent<Animator>().SetTrigger("die");
             GetComponent<ActionScheduler>().CancelCurrentAction();
             
             // Destroy(gameObject);
@@ -57,9 +58,23 @@ namespace RPG.Core
             }
             else
             {
-                aiController.enabled = false;
-                fighter.enabled = false;
-                navMeshAgent.enabled = false;
+                GetComponent<AIController>().enabled = false;
+                GetComponent<Fighter>().enabled = false;
+                GetComponent<NavMeshAgent>().enabled = false;
+            }
+        }
+
+        public object CaptureState()
+        {
+            return enemyHealth;
+        }
+
+        public void RestoreState(object state)
+        {
+            enemyHealth = (float)state;
+            if (enemyHealth == 0)
+            {
+                Die();
             }
         }
     }

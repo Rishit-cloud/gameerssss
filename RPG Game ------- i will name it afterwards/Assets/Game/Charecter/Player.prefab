@@ -33,6 +33,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 788315982847112408, guid: 363847cb8996b4847a1e98df7b7dc598, type: 3}
+      propertyPath: uniqueIdentifier
+      value: player
+      objectReference: {fileID: 0}
     - target: {fileID: 1567781174355328592, guid: 363847cb8996b4847a1e98df7b7dc598, type: 3}
       propertyPath: m_Name
       value: Player
@@ -89,6 +93,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8406781597490422358, guid: 363847cb8996b4847a1e98df7b7dc598, type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 11400000, guid: d5437cdbb3be9ae42bf45a493fc78d9a, type: 2}
+    - target: {fileID: 8406781597490422358, guid: 363847cb8996b4847a1e98df7b7dc598, type: 3}
+      propertyPath: WeaponPrefab
+      value: 
+      objectReference: {fileID: 8889686913462362539, guid: 5906bc45ebdbcd84284edccdf44af013, type: 3}
+    - target: {fileID: 8406781597490422358, guid: 363847cb8996b4847a1e98df7b7dc598, type: 3}
+      propertyPath: defaltWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: 5e85f3ce9a7528d4fb2cf5b08b5ad4b8, type: 2}
+    - target: {fileID: 8406781597490422358, guid: 363847cb8996b4847a1e98df7b7dc598, type: 3}
+      propertyPath: handTransform
+      value: 
+      objectReference: {fileID: 6323180256438323321}
+    - target: {fileID: 8406781597490422358, guid: 363847cb8996b4847a1e98df7b7dc598, type: 3}
+      propertyPath: leftHandTransform
+      value: 
+      objectReference: {fileID: 6323180256438265873}
+    - target: {fileID: 8406781597490422358, guid: 363847cb8996b4847a1e98df7b7dc598, type: 3}
+      propertyPath: rightHandTransform
+      value: 
+      objectReference: {fileID: 6323180256438323321}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 363847cb8996b4847a1e98df7b7dc598, type: 3}
 --- !u!1 &6782532627260432125 stripped
@@ -108,6 +136,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3061921255262784971}
     m_Modifications:
+    - target: {fileID: 164946, guid: 679ff741e12a7e740819ede24a7000b7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 166696, guid: 679ff741e12a7e740819ede24a7000b7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 191330, guid: 679ff741e12a7e740819ede24a7000b7, type: 3}
       propertyPath: m_Name
       value: Character_Knights_Soldier_02
@@ -158,3 +194,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 679ff741e12a7e740819ede24a7000b7, type: 3}
+--- !u!4 &6323180256438265873 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 403948, guid: 679ff741e12a7e740819ede24a7000b7, type: 3}
+  m_PrefabInstance: {fileID: 6323180256438125053}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6323180256438323321 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 461188, guid: 679ff741e12a7e740819ede24a7000b7, type: 3}
+  m_PrefabInstance: {fileID: 6323180256438125053}
+  m_PrefabAsset: {fileID: 0}

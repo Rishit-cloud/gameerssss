@@ -8,6 +8,8 @@ namespace RPG.SceneManagement
 {
     public class Portal : MonoBehaviour
     {
+        const string portalSaveFile = "throughPortalSave";
+
         enum DestinationIdentifier
         {
                 A, B, C, D, E
@@ -32,9 +34,17 @@ namespace RPG.SceneManagement
 
             Fadar fadar = FindObjectOfType<Fadar>();
             yield return fadar.FadeOut(1f);
+
+            SavingWrapper savingWrapper = FindObjectOfType<SavingWrapper>();
+            // save current scene
+            savingWrapper.Save();
+            // changin' the scene
             yield return SceneManager.LoadSceneAsync(buildSceneIndex);
+            // load current scene
+            savingWrapper.Load();
             Portal otherPortal = GetOtherPortal();
             UpdatePlayer(otherPortal);
+            savingWrapper.Save();
             yield return new WaitForSeconds(.5f);
             yield return fadar.FadeIn(1.5f);
 
@@ -56,8 +66,11 @@ namespace RPG.SceneManagement
         void UpdatePlayer(Portal otherPortal)
         {
             GameObject player = GameObject.FindWithTag("Player");
-            player.GetComponent<NavMeshAgent>().Warp(otherPortal.spawnPoint.position);
+            player.GetComponent<NavMeshAgent>().enabled = false;
+            player.transform.position = otherPortal.spawnPoint.position;
             player.transform.rotation = otherPortal.spawnPoint.rotation;
+            player.GetComponent<NavMeshAgent>().enabled = true;
+
         }
     }
 }
