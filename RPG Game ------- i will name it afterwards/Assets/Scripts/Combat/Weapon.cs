@@ -1,4 +1,5 @@
 using UnityEngine;
+using RPG.Core;
 
 namespace RPG.Combat
 {
@@ -11,15 +12,21 @@ namespace RPG.Combat
         [SerializeField] AnimatorOverrideController enemyWeaponOverride = null;
         [SerializeField] bool isRightHand = true;
         [SerializeField] float weaponRange = 2f;
+        [SerializeField] Projectile projectile = null;
+
+        const string weaponName = "Weapon";
         
         public void Spawn(Transform rightHandTransform, Transform leftHandTransform ,Animator animator)
         {
+            DestroyOldWeapon(rightHandTransform, leftHandTransform);
+            
             if (WeaponPrefab != null)
-            {
+            {   
                 Transform handTransform;
                 if (isRightHand == true) handTransform = rightHandTransform;
                 else handTransform = leftHandTransform;
-                Instantiate(WeaponPrefab, handTransform);
+                GameObject weapon = Instantiate(WeaponPrefab, handTransform);
+                weapon.name = weaponName;
             }
 
             if (weaponOverride != null)
@@ -38,6 +45,20 @@ namespace RPG.Combat
             }
         }
 
+        public bool HasProjectile()
+        {
+            return projectile != null;
+        }
+
+        public void LaunchProjectile(Transform rightHandTransform, Transform leftHandTransform, Health target)
+        {
+            Transform handTransform;
+            if (isRightHand == true) handTransform = rightHandTransform;
+            else handTransform = leftHandTransform;
+            Projectile projectileInstance = Instantiate(projectile, handTransform.position, Quaternion.identity);
+            projectileInstance.SetTarget(target, playerDamage);
+        }
+
         public float GetDamage()
         {
             return playerDamage;
@@ -46,6 +67,16 @@ namespace RPG.Combat
         public float GetRange()
         {
             return weaponRange;
+        }
+
+        void DestroyOldWeapon(Transform rightHandTransform, Transform leftHandTransform)
+        {
+            Transform oldWeapon = rightHandTransform.Find(weaponName);
+            if (oldWeapon == null) oldWeapon = leftHandTransform.Find(weaponName);
+            if (oldWeapon == null) return;
+
+            oldWeapon.name = "Destroying";
+            Destroy(oldWeapon.gameObject);
         }
     }
 }
