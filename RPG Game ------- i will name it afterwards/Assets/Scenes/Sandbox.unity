@@ -446,21 +446,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3785721856685368653, guid: 0f909a8c437c32d49adcd4e9b2156833, type: 3}
-      propertyPath: defaltWeapon
-      value: 
-      objectReference: {fileID: 11400000, guid: 5e85f3ce9a7528d4fb2cf5b08b5ad4b8, type: 2}
-    - target: {fileID: 5391899053971846083, guid: 0f909a8c437c32d49adcd4e9b2156833, type: 3}
-      propertyPath: uniqueIdentifier
-      value: a505a8eb-774b-4d87-ae40-81c03778048d
-      objectReference: {fileID: 0}
     - target: {fileID: 6188673769509402955, guid: 0f909a8c437c32d49adcd4e9b2156833, type: 3}
       propertyPath: m_Name
       value: Enemy - new (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 6188673769509402955, guid: 0f909a8c437c32d49adcd4e9b2156833, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f909a8c437c32d49adcd4e9b2156833, type: 3}
@@ -1705,7 +1693,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.7593985, y: 1}
+    m_SensorSize: {x: 2.0330188, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -3697,7 +3685,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.7593985, y: 1}
+    m_SensorSize: {x: 2.0330188, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -5448,7 +5436,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.7593985, y: 1}
+    m_SensorSize: {x: 2.0330188, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -6251,22 +6239,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8920423064016444046, guid: 3897b5597f6d3d24e97326a32ea244b5, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -25.087467
-      objectReference: {fileID: 0}
-    - target: {fileID: 8920423064016444046, guid: 3897b5597f6d3d24e97326a32ea244b5, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 10.962292
-      objectReference: {fileID: 0}
-    - target: {fileID: 8920423064016444046, guid: 3897b5597f6d3d24e97326a32ea244b5, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 28.692698
-      objectReference: {fileID: 0}
-    - target: {fileID: 8920423064055539069, guid: 3897b5597f6d3d24e97326a32ea244b5, type: 3}
-      propertyPath: m_CameraDistance
-      value: 12.39
-      objectReference: {fileID: 0}
     - target: {fileID: 8920423064179995463, guid: 3897b5597f6d3d24e97326a32ea244b5, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -6314,18 +6286,6 @@ PrefabInstance:
     - target: {fileID: 8920423064179995480, guid: 3897b5597f6d3d24e97326a32ea244b5, type: 3}
       propertyPath: m_Name
       value: Core
-      objectReference: {fileID: 0}
-    - target: {fileID: 8920423064366282448, guid: 3897b5597f6d3d24e97326a32ea244b5, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -25.087467
-      objectReference: {fileID: 0}
-    - target: {fileID: 8920423064366282448, guid: 3897b5597f6d3d24e97326a32ea244b5, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 10.962292
-      objectReference: {fileID: 0}
-    - target: {fileID: 8920423064366282448, guid: 3897b5597f6d3d24e97326a32ea244b5, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 28.692698
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3897b5597f6d3d24e97326a32ea244b5, type: 3}

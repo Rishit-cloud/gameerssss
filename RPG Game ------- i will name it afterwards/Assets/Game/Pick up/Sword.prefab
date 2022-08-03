@@ -59,6 +59,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weapon: {fileID: 11400000, guid: d5437cdbb3be9ae42bf45a493fc78d9a, type: 2}
+  hideTime: 5
+  PickupMesh: {fileID: 0}
 --- !u!1001 &7017407312310647422
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -1,5 +1,6 @@
 using UnityEngine;
 using RPG.Core;
+using RPG.Attributes;
 
 namespace RPG.Combat
 {
@@ -31,7 +32,7 @@ namespace RPG.Combat
 
             if (weaponOverride != null)
             {
-                GameObject player = GameObject.FindWithTag("Player");;
+                GameObject player = GameObject.FindWithTag("Player");
 
                 if (player.tag == "Player")
                 {
@@ -50,13 +51,13 @@ namespace RPG.Combat
             return projectile != null;
         }
 
-        public void LaunchProjectile(Transform rightHandTransform, Transform leftHandTransform, Health target)
-        {
+        public void LaunchProjectile(Transform rightHandTransform, Transform leftHandTransform, Health target, GameObject instigator)
+        {   
             Transform handTransform;
             if (isRightHand == true) handTransform = rightHandTransform;
             else handTransform = leftHandTransform;
             Projectile projectileInstance = Instantiate(projectile, handTransform.position, Quaternion.identity);
-            projectileInstance.SetTarget(target, playerDamage);
+            projectileInstance.SetTarget(target, instigator,playerDamage);
         }
 
         public float GetDamage()

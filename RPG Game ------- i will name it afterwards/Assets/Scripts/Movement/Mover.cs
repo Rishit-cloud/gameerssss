@@ -6,6 +6,7 @@ using RPG.Core;
 using RPG.Combat;
 using RPG.Control;
 using RPG.Saving;
+using RPG.Attributes;
 
 namespace RPG.Movement
 {

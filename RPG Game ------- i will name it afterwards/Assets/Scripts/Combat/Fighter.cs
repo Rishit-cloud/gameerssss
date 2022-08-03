@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using RPG.Movement;
 using RPG.Core;
+using RPG.Attributes;
 using RPG.Saving;
 
 namespace RPG.Combat
@@ -18,7 +19,6 @@ namespace RPG.Combat
         [SerializeField] Transform rightHandTransform = null;
         [SerializeField] Transform leftHandTransform = null;
         [SerializeField] Weapon defaltWeapon = null;
-        [SerializeField] string defaltWeaponName = "Unarmed";
         Weapon currentWeapon = null;
         
 
@@ -28,14 +28,16 @@ namespace RPG.Combat
             mover = GetComponent<Mover>();
             animator = GetComponent<Animator>();
 
-            Weapon weapon = Resources.Load<Weapon>(defaltWeaponName);
-            EquipWeapon(weapon);
+            if (currentWeapon == null)
+            {
+                EquipWeapon(defaltWeapon);
+            }
         }
 
         public void EquipWeapon(Weapon weapon)
         {   
             currentWeapon = weapon;
-            weapon.Spawn(rightHandTransform, leftHandTransform, animator);
+            currentWeapon.Spawn(rightHandTransform, leftHandTransform, GetComponent<Animator>());
         }
 
         void Update()
@@ -105,11 +107,11 @@ namespace RPG.Combat
 
             if (currentWeapon.HasProjectile())
             {
-                currentWeapon.LaunchProjectile(rightHandTransform, leftHandTransform, target);
+                currentWeapon.LaunchProjectile(rightHandTransform, leftHandTransform, target, gameObject);
             }
             else
             {
-                target.TakeDamage(currentWeapon.GetDamage());
+                target.TakeDamage(gameObject ,currentWeapon.GetDamage());
             }
         }
 
@@ -141,11 +143,28 @@ namespace RPG.Combat
             return false;
         }
 
+        public Health GetTarget()
+        {
+            return target;
+        }
+
         public void Cancel()
         {
             // animator.SetTrigger("dontAttack");
             target = null;
             GetComponent<Mover>().Cancel();
+        }
+
+        public object CaptureState()
+        {
+            return currentWeapon.name;
+        }
+
+        public void RestoreState(object state)
+        {
+            string weaponName = (string)state;
+            Weapon weapon = UnityEngine.Resources.Load<Weapon>(weaponName);
+            EquipWeapon(weapon);
         }
 
     }

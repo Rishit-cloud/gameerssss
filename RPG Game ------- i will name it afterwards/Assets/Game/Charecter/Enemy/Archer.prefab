@@ -55,6 +55,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2449838772061733432, guid: 0f909a8c437c32d49adcd4e9b2156833, type: 3}
+      propertyPath: startingLevel
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2449838772061733432, guid: 0f909a8c437c32d49adcd4e9b2156833, type: 3}
+      propertyPath: characterClass
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3785721856685368653, guid: 0f909a8c437c32d49adcd4e9b2156833, type: 3}
       propertyPath: defaltWeapon
       value: 
