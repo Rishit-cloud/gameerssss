@@ -16,7 +16,7 @@ namespace RPG.Movement
         NavMeshAgent navMeshAgent;
         Animator animator;
         Fighter fighter;
- 
+        
         void Start()
         {
             navMeshAgent = GetComponent<NavMeshAgent>();

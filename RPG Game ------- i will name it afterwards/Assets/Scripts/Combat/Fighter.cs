@@ -5,10 +5,11 @@ using RPG.Movement;
 using RPG.Core;
 using RPG.Attributes;
 using RPG.Saving;
+using RPG.Stats;
 
 namespace RPG.Combat
 {
-    public class Fighter : MonoBehaviour, IAction, ISaveable
+    public class Fighter : MonoBehaviour, IAction, ISaveable, IModifierProvider
     {
         bool isManualAttacking = false;
         Health target;
@@ -103,15 +104,15 @@ namespace RPG.Combat
         // this is a animation event
         void Hit()
         {
-            if (target == null) return;
-
+            if(target == null) { return; }
+            float damage = GetComponent<BaseStats>().GetStat(Stat.Damage);
             if (currentWeapon.HasProjectile())
             {
-                currentWeapon.LaunchProjectile(rightHandTransform, leftHandTransform, target, gameObject);
+                currentWeapon.LaunchProjectile(rightHandTransform, leftHandTransform, target, gameObject, damage);
             }
             else
             {
-                target.TakeDamage(gameObject ,currentWeapon.GetDamage());
+                target.TakeDamage(gameObject, damage);
             }
         }
 
@@ -155,6 +156,14 @@ namespace RPG.Combat
             GetComponent<Mover>().Cancel();
         }
 
+        public IEnumerable<float> GetAdditiveModifier(Stat stat)
+        {
+            if (stat == Stat.Damage)
+            {
+                yield return currentWeapon.GetDamage();
+            }
+        }
+
         public object CaptureState()
         {
             return currentWeapon.name;
@@ -167,6 +176,13 @@ namespace RPG.Combat
             EquipWeapon(weapon);
         }
 
+        public IEnumerable<float> GetPercentageModifier(Stat stat)
+        {
+            if (stat == Stat.Damage)
+            {
+                yield return currentWeapon.GetPercentageBonus();
+            }
+        }
     }
 
 }

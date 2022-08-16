@@ -12,14 +12,17 @@ namespace RPG.Attributes
 {
     public class Health : MonoBehaviour, ISaveable
     {
+        [SerializeField] float regenerationPercentage = 70;
+        
+        
         AIController aiController;
         Fighter fighter;
         PlayerController playerController;
         NavMeshAgent navMeshAgent;
         Animator animator;
-        [SerializeField] public float enemyHealth = 100f;
+        float enemyHealth = 100f;
         public bool isDead = false;
-        float maxHealth = 0f;
+        bool isRestored = false;
 
         void Start()
         {
@@ -29,18 +32,34 @@ namespace RPG.Attributes
             navMeshAgent = GetComponent<NavMeshAgent>();
             playerController = GetComponent<PlayerController>();
 
-            enemyHealth = GetComponent<BaseStats>().GetStat(Stat.Health);
-            maxHealth = GetComponent<BaseStats>().GetStat(Stat.Health);
+            GetComponent<BaseStats>().onLevelUp += RegenerateHealth;
+            
+            if (isRestored != true)
+            {
+                enemyHealth = GetComponent<BaseStats>().GetStat(Stat.Health);
+            }
         }
         
-        public void TakeDamage( GameObject instigator, float playerDamage)
+        public void TakeDamage( GameObject instigator, float damage)
         {
-            enemyHealth = Mathf.Max(enemyHealth - playerDamage, 0);
+            Debug.Log(gameObject.name + " took damage: " + damage);
+            
+            enemyHealth = Mathf.Max(enemyHealth - damage, 0);
             if (enemyHealth == 0)
             {
                 Die();
                 AwardExperience(instigator);
             }
+        }
+
+        public float GetHealthPoints()
+        {
+            return enemyHealth;
+        }
+
+        public float GetMaxHealthPoints()
+        {
+            return GetComponent<BaseStats>().GetStat(Stat.Health);
         }
 
         void AwardExperience(GameObject instigator)
@@ -78,6 +97,17 @@ namespace RPG.Attributes
             }
         }
 
+        public float GetHealthPercentage()
+        {
+            return 100 * (enemyHealth / GetComponent<BaseStats>().GetStat(Stat.Health));
+        }
+
+        void RegenerateHealth()
+        {
+            float regenHealth = regenerationPercentage/100 * GetComponent<BaseStats>().GetStat(Stat.Health);
+            enemyHealth = Mathf.Max(enemyHealth, regenHealth);
+        }
+        
         public object CaptureState()
         {
             return enemyHealth;
@@ -89,12 +119,8 @@ namespace RPG.Attributes
             if (enemyHealth == 0)
             {
                 Die();
+                isRestored = true;
             }
-        }
-
-        public float GetHealthPercentage()
-        {
-            return 100 * (enemyHealth / GetComponent<BaseStats>().GetStat(Stat.Health));
         }
     }
 }

@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: EnemyBow
   m_EditorClassIdentifier: 
   WeaponPrefab: {fileID: 7915473318599879488, guid: c74294d08ea7def45957575f9bc6e755, type: 3}
-  playerDamage: 20
+  playerDamage: 17
+  percentageBonus: 10
   weaponOverride: {fileID: 22100000, guid: 517c93fd09edb71469fb0cb6874c1739, type: 2}
   enemyWeaponOverride: {fileID: 22100000, guid: 6b5f179d8aa34214daaba38869e0c844, type: 2}
   isRightHand: 0

@@ -120,7 +120,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -2171608269567245021, guid: 363847cb8996b4847a1e98df7b7dc598, type: 3}
       propertyPath: startingLevel
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -2171608269567245021, guid: 363847cb8996b4847a1e98df7b7dc598, type: 3}
       propertyPath: characterClass
@@ -140,7 +140,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1567781174355328592, guid: 363847cb8996b4847a1e98df7b7dc598, type: 3}
       propertyPath: m_Name
-      value: Enemy - new (3)
+      value: Enemy - new
       objectReference: {fileID: 0}
     - target: {fileID: 2396803382794909497, guid: 363847cb8996b4847a1e98df7b7dc598, type: 3}
       propertyPath: m_Controller

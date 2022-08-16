@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: FireBall
   m_EditorClassIdentifier: 
   WeaponPrefab: {fileID: 1243744731326577892, guid: 7a0490ead35476a46867d436505241ba, type: 3}
-  playerDamage: 40
+  playerDamage: 30
+  percentageBonus: 10
   weaponOverride: {fileID: 22100000, guid: 4e065e95c6908884e99a1df1d8fc8277, type: 2}
   enemyWeaponOverride: {fileID: 22100000, guid: 4e065e95c6908884e99a1df1d8fc8277, type: 2}
   isRightHand: 0

@@ -6,16 +6,21 @@ using RPG.Saving;
 namespace RPG.SceneManagement
 {
     public class SavingWrapper : MonoBehaviour
-    {
+    {   
         const string defaultSaveFile = "save";
         [SerializeField] float fadeInTime = .2f;
         
+        void Awake()
+        {
+            StartCoroutine(Start());
+        }
+
         IEnumerator Start()
         {
             Fadar fadar = FindObjectOfType<Fadar>();
-            fadar.FadeOutImmidiate();
+            FindObjectOfType<Fadar>().FadeOutImmidiate();
             yield return GetComponent<SavingSystem>().LoadLastScene(defaultSaveFile);
-            yield return fadar.FadeIn(fadeInTime);
+            yield return FindObjectOfType<Fadar>().FadeIn(fadeInTime);
         }
         
         void Update()
@@ -28,6 +33,10 @@ namespace RPG.SceneManagement
             {
                 Save();
             }
+            if (Input.GetKeyDown(KeyCode.Delete))
+            {
+                Delete();
+            }
         }
 
         public void Load()
@@ -38,6 +47,11 @@ namespace RPG.SceneManagement
         public void Save()
         {
             GetComponent<SavingSystem>().Save(defaultSaveFile);
+        }
+
+        public void Delete()
+        {
+            GetComponent<SavingSystem>().Delete(defaultSaveFile);
         }
     }
 }

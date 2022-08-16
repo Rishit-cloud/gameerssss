@@ -232,7 +232,7 @@ PrefabInstance:
       objectReference: {fileID: 5887775551329308001}
     - target: {fileID: 6590964167474301433, guid: 907249e9016e0674ea09bc26cd0365f4, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
-      value: 2.0330188
+      value: 2.7794485
       objectReference: {fileID: 0}
     - target: {fileID: 6590964167838653019, guid: 907249e9016e0674ea09bc26cd0365f4, type: 3}
       propertyPath: m_CameraDistance
@@ -420,9 +420,45 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8920423064179995463}
     m_Modifications:
+    - target: {fileID: -6386929065472887421, guid: 73a52b8179c27f344a01fe926ea88e2c, type: 3}
+      propertyPath: cursorMappings.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -6386929065472887421, guid: 73a52b8179c27f344a01fe926ea88e2c, type: 3}
+      propertyPath: cursorMappings.Array.data[1].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6386929065472887421, guid: 73a52b8179c27f344a01fe926ea88e2c, type: 3}
+      propertyPath: cursorMappings.Array.data[2].type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -6386929065472887421, guid: 73a52b8179c27f344a01fe926ea88e2c, type: 3}
+      propertyPath: cursorMappings.Array.data[3].type
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -6386929065472887421, guid: 73a52b8179c27f344a01fe926ea88e2c, type: 3}
+      propertyPath: cursorMappings.Array.data[0].texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 21628736160fcc9488493401da3ef621, type: 3}
+    - target: {fileID: -6386929065472887421, guid: 73a52b8179c27f344a01fe926ea88e2c, type: 3}
+      propertyPath: cursorMappings.Array.data[1].texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 8859fce41c5d0a148ad0b7eebfca7fe9, type: 3}
+    - target: {fileID: -6386929065472887421, guid: 73a52b8179c27f344a01fe926ea88e2c, type: 3}
+      propertyPath: cursorMappings.Array.data[2].texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 2d18e23e3ce249b4489b8bcdd02d3f48, type: 3}
+    - target: {fileID: -6386929065472887421, guid: 73a52b8179c27f344a01fe926ea88e2c, type: 3}
+      propertyPath: cursorMappings.Array.data[3].texture
+      value: 
+      objectReference: {fileID: 2800000, guid: e4fac5245b727db42ba0ca0258851b83, type: 3}
     - target: {fileID: 3043694605380904334, guid: 73a52b8179c27f344a01fe926ea88e2c, type: 3}
       propertyPath: startingLevel
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3043694605380904334, guid: 73a52b8179c27f344a01fe926ea88e2c, type: 3}
+      propertyPath: shouldUseModifiers
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3061921255262784971, guid: 73a52b8179c27f344a01fe926ea88e2c, type: 3}
       propertyPath: m_RootOrder

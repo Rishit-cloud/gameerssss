@@ -16,7 +16,7 @@ namespace RPG.Combat
         [SerializeField] float lifeAfterImpact = 2f;
         GameObject instigator = null;
         Health target = null;
-        float damage = 0f;
+        [SerializeField] float damage = 0f;
 
         void Start()
         {
