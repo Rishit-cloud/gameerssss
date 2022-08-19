@@ -26,6 +26,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f65c04f250fb923438633aca94fab1da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickUpRange: 3
+  cursorMappings: []
+  maxNavMeshProjectionDistance: 1
+  maxNavPathLength: 30
 --- !u!1001 &5467798580458987693
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41,6 +45,10 @@ PrefabInstance:
       propertyPath: uniqueIdentifier
       value: player
       objectReference: {fileID: 0}
+    - target: {fileID: 1372311593622033673, guid: 363847cb8996b4847a1e98df7b7dc598, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1567781174355328592, guid: 363847cb8996b4847a1e98df7b7dc598, type: 3}
       propertyPath: m_Name
       value: Player
@@ -49,6 +57,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 1635783539728040961, guid: 363847cb8996b4847a1e98df7b7dc598, type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 4992066518137317803, guid: 045ad2c25ce820743a60ec7be9caec98, type: 3}
     - target: {fileID: 2624615520163022348, guid: 363847cb8996b4847a1e98df7b7dc598, type: 3}
       propertyPath: enemyHealth
       value: 200

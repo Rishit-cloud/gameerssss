@@ -15,11 +15,11 @@ Y:/Rishit/gameerssss/RPG Game ------- i will name it afterwards
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61060
+58932
 Successfully changed project path to: Y:/Rishit/gameerssss/RPG Game ------- i will name it afterwards
 Y:/Rishit/gameerssss/RPG Game ------- i will name it afterwards
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 92.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 143.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.18f1 (25bdc3efbc2d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/Resources/UnitySubsystems
@@ -30,102 +30,99 @@ Direct3D:
     Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
     Vendor:   Intel
     VRAM:     3917 MB
-    Driver:   30.0.101.1029
+    Driver:   30.0.101.1660
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004848 seconds.
+Registered in 0.008094 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 77.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 238.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.919 seconds
+- Completed reload, in  5.024 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2919ms)
-		BeginReloadAssembly (126ms)
+	ReloadAssembly (5025ms)
+		BeginReloadAssembly (82ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (427ms)
-			LoadAssemblies (124ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (130ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1243ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (419ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (221ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (619ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (78ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (103ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (239ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (280ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.020033 seconds.
+Registered in 0.028542 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image Y:\Rishit\gameerssss\RPG Game ------- i will name it afterwards\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image Y:\Rishit\gameerssss\RPG Game ------- i will name it afterwards\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Script error: OnTriggerEnter
-This message parameter has to be of type: Collider
-The message will be ignored.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.505 seconds
+- Completed reload, in  2.961 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1505ms)
-		BeginReloadAssembly (130ms)
+	ReloadAssembly (2962ms)
+		BeginReloadAssembly (368ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (1329ms)
-			LoadAssemblies (485ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (2462ms)
+			LoadAssemblies (269ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (302ms)
+			SetupTypeCache (822ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (402ms)
+			RebuildScriptCaches (135ms)
+			SetupLoadedEditorAssemblies (1033ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (309ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
+				BeforeProcessingInitializeOnLoad (191ms)
+				ProcessInitializeOnLoadAttributes (796ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3142 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 127.6 MB.
-System memory in use after: 127.8 MB.
+Unloading 3146 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.5 MB.
+System memory in use after: 127.7 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3607.
-Total: 3.328700 ms (FindLiveObjects: 0.185200 ms CreateObjectMapping: 0.085400 ms MarkObjects: 2.956600 ms  DeleteObjects: 0.100400 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3611.
+Total: 6.141900 ms (FindLiveObjects: 0.463700 ms CreateObjectMapping: 0.201600 ms MarkObjects: 5.245800 ms  DeleteObjects: 0.228500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -139,56 +136,590 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Combat/EnemyHealthUI.cs
-  artifactKey: Guid(e22dee727bc51d140ba3e9bde26a1d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Combat/EnemyHealthUI.cs using Guid(e22dee727bc51d140ba3e9bde26a1d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03cff6843dcb3c4a2117cc0094e2cf41') in 0.034921 seconds 
+  path: Assets/Scripts/UI/DamageText/DamageTextSpawner1.cs
+  artifactKey: Guid(ebd4fb214a43bd440a13f75cc623d338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/DamageText/DamageTextSpawner1.cs using Guid(ebd4fb214a43bd440a13f75cc623d338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c64808f9f987534aa119ec5960c5b4') in 0.055709 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000681 seconds.
-  path: Assets/Scripts/Combat/CombatTarget.cs
-  artifactKey: Guid(421e50240bf6bd54fa611755f379d113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Combat/CombatTarget.cs using Guid(421e50240bf6bd54fa611755f379d113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cebc9de9bc3cc5a45cc16ac82d37849d') in 0.005612 seconds 
+  Time since last request: 14.945046 seconds.
+  path: Assets/Game/UI/InGameUI/DamageTextHolder.prefab
+  artifactKey: Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/DamageTextHolder.prefab using Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28cfd24df850fcbf5cfc3ff3e807c2e') in 0.087875 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2030.266221 seconds.
-  path: Assets/Scripts/Movement/IRayCastable.cs
-  artifactKey: Guid(c8bb225a45e19b545ae60a594855d2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Movement/IRayCastable.cs using Guid(c8bb225a45e19b545ae60a594855d2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a11ddbbc0346a3ee0bacc4581a7894e') in 0.010156 seconds 
+  Time since last request: 25.122818 seconds.
+  path: Assets/Game/UI/InGameUI/DamageTextSpawner.prefab
+  artifactKey: Guid(c68e22153239dee44a62605d470e4de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/DamageTextSpawner.prefab using Guid(c68e22153239dee44a62605d470e4de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80cb592518c706760ba36c6d790ef48c') in 0.014570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 90.886989 seconds.
+  path: Assets/Scripts/UI/DamageText/DamageText.cs
+  artifactKey: Guid(0ef2008549446014e8e11232d173fec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/DamageText/DamageText.cs using Guid(0ef2008549446014e8e11232d173fec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3810d2897469fb697b3524aefe4d9dec') in 0.014180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 97.663380 seconds.
+  path: Assets/Game/UI/InGameUI/DamageTextSpawner.prefab
+  artifactKey: Guid(c68e22153239dee44a62605d470e4de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/DamageTextSpawner.prefab using Guid(c68e22153239dee44a62605d470e4de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61737ee8fd61c606966f3e98ac88f17d') in 0.006980 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009661 seconds.
+Registered in 0.003659 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image Y:\Rishit\gameerssss\RPG Game ------- i will name it afterwards\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image Y:\Rishit\gameerssss\RPG Game ------- i will name it afterwards\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.696 seconds
+- Completed reload, in  1.294 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1697ms)
-		BeginReloadAssembly (520ms)
+	ReloadAssembly (1295ms)
+		BeginReloadAssembly (177ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (45ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (283ms)
-		EndReloadAssembly (1099ms)
-			LoadAssemblies (150ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (466ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (1066ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (333ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (369ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (463ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (383ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter
+This message parameter has to be of type: Collider
+The message will be ignored.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.4 MB.
+System memory in use after: 127.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3615.
+Total: 3.881800 ms (FindLiveObjects: 0.189700 ms CreateObjectMapping: 0.082300 ms MarkObjects: 3.579300 ms  DeleteObjects: 0.028600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 114.405150 seconds.
+  path: Assets/Game/UI/InGameUI/DamageTextSpawner.prefab
+  artifactKey: Guid(c68e22153239dee44a62605d470e4de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/DamageTextSpawner.prefab using Guid(c68e22153239dee44a62605d470e4de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6ed070f23c3328ffaaf2f0b6031683') in 0.038085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.189662 seconds.
+  path: Assets/Game/UI/InGameUI/DamageTextSpawner.prefab
+  artifactKey: Guid(c68e22153239dee44a62605d470e4de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/DamageTextSpawner.prefab using Guid(c68e22153239dee44a62605d470e4de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de7533457654aef0cf423b4d792e0c7') in 0.010723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.807717 seconds.
+  path: Assets/Scripts/UI/DamageText/DamageTextSpawner1.cs
+  artifactKey: Guid(ebd4fb214a43bd440a13f75cc623d338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UI/DamageText/DamageTextSpawner1.cs using Guid(ebd4fb214a43bd440a13f75cc623d338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246638320f7a48c5c187d1db72af002d') in 0.010197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.627706 seconds.
+  path: Assets/Game/Core/Core.prefab
+  artifactKey: Guid(3897b5597f6d3d24e97326a32ea244b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Core/Core.prefab using Guid(3897b5597f6d3d24e97326a32ea244b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d491039537fdc96081c6d371233c75') in 0.187631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.258342 seconds.
+  path: Assets/Game/UI/InGameUI/DamageTextHolder.prefab
+  artifactKey: Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/DamageTextHolder.prefab using Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b78830b5c7c8023c0e30f64c823e9c4') in 0.009839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.585874 seconds.
+  path: Assets/Game/UI/InGameUI/DamageTextHolder.prefab
+  artifactKey: Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/DamageTextHolder.prefab using Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa2d4766903a8dd781414a79c273e276') in 0.007040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.506211 seconds.
+  path: Assets/Game/UI/InGameUI/DamageText.prefab
+  artifactKey: Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/DamageText.prefab using Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62937845e4b91d6156f0413a2f734973') in 0.008267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.400269 seconds.
+  path: Assets/Game/UI/InGameUI/DamageText.prefab
+  artifactKey: Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/DamageText.prefab using Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90b90b59712aafec7dbd2fc9a5620d2') in 0.004983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.515450 seconds.
+  path: Assets/Game/UI/InGameUI/DamageText.prefab
+  artifactKey: Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/DamageText.prefab using Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3477adefcd6fdd2c79d743f5ce9cb30') in 0.005976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.505615 seconds.
+  path: Assets/Game/UI/InGameUI/DamageText.prefab
+  artifactKey: Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/DamageText.prefab using Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb48608338a1cd02d6fd2847cdeaec37') in 0.006109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.672985 seconds.
+  path: Assets/Game/UI/InGameUI/DamageText.prefab
+  artifactKey: Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/DamageText.prefab using Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae747b9938bc31afbcd9205fdbbc525e') in 0.006204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.558582 seconds.
+  path: Assets/Game/UI/InGameUI/DamageText.prefab
+  artifactKey: Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/DamageText.prefab using Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16983a5408770e702e449053341c8e76') in 0.006036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.498917 seconds.
+  path: Assets/Game/UI/InGameUI/DamageText.prefab
+  artifactKey: Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/DamageText.prefab using Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1c67355b9504e026e093e0dbab7041') in 0.008385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.059349 seconds.
+  path: Assets/Game/UI/InGameUI/DamageText.prefab
+  artifactKey: Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/DamageText.prefab using Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db1edee1288eb337d7338efae7cb2a61') in 0.007753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.760500 seconds.
+  path: Assets/Game/UI/InGameUI/DamageText.prefab
+  artifactKey: Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/DamageText.prefab using Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74629aa5542ccf90bae356f0456a51f') in 0.008718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.717694 seconds.
+  path: Assets/Game/UI/InGameUI/DamageText.prefab
+  artifactKey: Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/DamageText.prefab using Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2b1d375410db71794b97e82f38d4e4') in 0.010530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.642356 seconds.
+  path: Assets/Game/UI/InGameUI/DamageText.prefab
+  artifactKey: Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/DamageText.prefab using Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb14f5beae0c5e556472b21507502c1') in 0.007623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.229355 seconds.
+  path: Assets/Game/UI/InGameUI/DamageText.prefab
+  artifactKey: Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/DamageText.prefab using Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d410639b273f17dbfcbfbee5b7b534') in 0.006367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.074191 seconds.
+  path: Assets/Game/UI/InGameUI/DamageText.prefab
+  artifactKey: Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/DamageText.prefab using Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3e84d78e12781b0f54344693f1ec0e6') in 0.007141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.943472 seconds.
+  path: Assets/Game/UI/InGameUI/Canvas.prefab
+  artifactKey: Guid(59558ea5cc674744b87424b846219c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Canvas.prefab using Guid(59558ea5cc674744b87424b846219c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4d0ce5ca1d6cee318028dbe9042a51') in 0.011718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Game/UI/InGameUI/DamageText.prefab
+  artifactKey: Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/DamageText.prefab using Guid(88a4eeab3782e1b408e3ea2b98862419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b2c2b5c544043cdc62919532bba3e4') in 0.007477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.230825 seconds.
+  path: Assets/Game/UI/InGameUI/Canvas.prefab
+  artifactKey: Guid(59558ea5cc674744b87424b846219c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Canvas.prefab using Guid(59558ea5cc674744b87424b846219c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb14dcd8a773e61734e79c0d7fcbe55') in 0.006064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 206.914191 seconds.
+  path: Assets/Game/UI/InGameUI/DamageText.prefab
+  artifactKey: Guid(59558ea5cc674744b87424b846219c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/DamageText.prefab using Guid(59558ea5cc674744b87424b846219c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c614f2071bcaf0c848f710d44ba2907') in 0.007508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.787140 seconds.
+  path: Assets/Game/UI/InGameUI/DamageText.prefab
+  artifactKey: Guid(59558ea5cc674744b87424b846219c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/DamageText.prefab using Guid(59558ea5cc674744b87424b846219c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9307aff243dcd7a53b08e9927e266c') in 0.008351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.097159 seconds.
+  path: Assets/Game/UI/InGameUI/DamageText.prefab
+  artifactKey: Guid(59558ea5cc674744b87424b846219c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/DamageText.prefab using Guid(59558ea5cc674744b87424b846219c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f148bbcaabd79e7c547b191c5e6330') in 0.006154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.775535 seconds.
+  path: Assets/Game/UI/InGameUI/DamageText.prefab
+  artifactKey: Guid(59558ea5cc674744b87424b846219c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/DamageText.prefab using Guid(59558ea5cc674744b87424b846219c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54167e0b9131c5d1573b426d31b5b54') in 0.007245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.809577 seconds.
+  path: Assets/Game/UI/InGameUI/Damage Text.prefab
+  artifactKey: Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Damage Text.prefab using Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73682a8a7b4575e50a40934f942dc6fc') in 0.013400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.198135 seconds.
+  path: Assets/Game/UI/InGameUI/DamageText.prefab
+  artifactKey: Guid(59558ea5cc674744b87424b846219c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/DamageText.prefab using Guid(59558ea5cc674744b87424b846219c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49644357ddc5521854249bd29e52ebc7') in 0.010495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.741602 seconds.
+  path: Assets/Game/UI/InGameUI/DamageText.prefab
+  artifactKey: Guid(59558ea5cc674744b87424b846219c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/DamageText.prefab using Guid(59558ea5cc674744b87424b846219c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '025409922fbff6de9b574a1a92742dde') in 0.006338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.763794 seconds.
+  path: Assets/Game/UI/InGameUI/Damage Text.prefab
+  artifactKey: Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Damage Text.prefab using Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58f88529d7e318c7c551f7540d096ac') in 0.007644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.230943 seconds.
+  path: Assets/Game/UI/InGameUI/Damage Text.prefab
+  artifactKey: Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Damage Text.prefab using Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6613dd32fadf3437bdf733bef7bd584e') in 0.009847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.295384 seconds.
+  path: Assets/Game/UI/InGameUI/Damage Text.prefab
+  artifactKey: Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Damage Text.prefab using Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbb3788df0ca34b3ad97dc302ec0918') in 0.009025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.454400 seconds.
+  path: Assets/Game/UI/InGameUI/Damage Text.prefab
+  artifactKey: Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Damage Text.prefab using Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663b4ab7ba989996e8fb7e30c90d9a12') in 0.007449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.802940 seconds.
+  path: Assets/Game/UI/InGameUI/Damage Text.prefab
+  artifactKey: Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Damage Text.prefab using Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72375b917f1baa683de1fbe9c19c3f11') in 0.004882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.398436 seconds.
+  path: Assets/Game/UI/InGameUI/Damage Text.prefab
+  artifactKey: Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Damage Text.prefab using Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce18631c9f495b78949b7ee343b7f1a') in 0.006308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.659834 seconds.
+  path: Assets/Game/UI/InGameUI/Damage Text.prefab
+  artifactKey: Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Damage Text.prefab using Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40e9693bd659cd82cf4ffa12ce6f1b9') in 0.003940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.896733 seconds.
+  path: Assets/Game/UI/InGameUI/Damage Text.prefab
+  artifactKey: Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Damage Text.prefab using Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a473dd31851d4f50f9f43f6b9cb73acc') in 0.008712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.615290 seconds.
+  path: Assets/Game/UI/InGameUI/Damage Text.prefab
+  artifactKey: Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Damage Text.prefab using Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf9a5cbd38e56a505514e55f4760089') in 0.008573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.180918 seconds.
+  path: Assets/Game/UI/InGameUI/Damage Text.prefab
+  artifactKey: Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Damage Text.prefab using Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4128515891153616e037a3a58ba8a6ca') in 0.007242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.737279 seconds.
+  path: Assets/Game/UI/InGameUI/Damage Text.prefab
+  artifactKey: Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Damage Text.prefab using Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e15d289ee4fdd7faa6061439357c8a') in 0.009820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.755282 seconds.
+  path: Assets/Game/UI/InGameUI/Damage Text.prefab
+  artifactKey: Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Damage Text.prefab using Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac19f5e6cbc12f0746f97c7692513bd') in 0.010512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.560165 seconds.
+  path: Assets/Game/UI/InGameUI/Damage Text.prefab
+  artifactKey: Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Damage Text.prefab using Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee058abb5a6707c01434a0daf85fcc8b') in 0.004946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.412079 seconds.
+  path: Assets/Game/UI/InGameUI/Damage Text.prefab
+  artifactKey: Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Damage Text.prefab using Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb25bd3c0432071874c357c017056f24') in 0.008091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.628701 seconds.
+  path: Assets/Game/UI/InGameUI/Damage Text.prefab
+  artifactKey: Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Damage Text.prefab using Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497e421e77ad26cb912e3233b24cb836') in 0.006759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.084334 seconds.
+  path: Assets/Game/UI/InGameUI/Damage Text.prefab
+  artifactKey: Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Damage Text.prefab using Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad761853432ac94dd53a55da9b90ddb8') in 0.005922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.396903 seconds.
+  path: Assets/Game/UI/InGameUI/Damage Text.prefab
+  artifactKey: Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Damage Text.prefab using Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e8c0629c2d0d8db843a6fdb43a442f') in 0.006262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.095521 seconds.
+  path: Assets/Game/UI/InGameUI/Damage Text.prefab
+  artifactKey: Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Damage Text.prefab using Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3dec04bdaace74993b2c64df3e61b88') in 0.007090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.890978 seconds.
+  path: Assets/Game/UI/InGameUI/Damage Text.prefab
+  artifactKey: Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Damage Text.prefab using Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336e70b017e82687801b0a9da4e52534') in 0.008487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.465170 seconds.
+  path: Assets/Game/UI/InGameUI/Damage Text.prefab
+  artifactKey: Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Damage Text.prefab using Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9540430f4be5c8d81910ff44aeb470fb') in 0.005732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.386810 seconds.
+  path: Assets/Game/UI/InGameUI/Damage Text.prefab
+  artifactKey: Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Damage Text.prefab using Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7dfe5f8343e165de67c93b1d452eeef') in 0.007857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.234875 seconds.
+  path: Assets/Game/UI/InGameUI/Damage Text.prefab
+  artifactKey: Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Damage Text.prefab using Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64e0d900a40baffd79b8abd1b31a5ff') in 0.006443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.082976 seconds.
+  path: Assets/Game/UI/InGameUI/Damage Text.prefab
+  artifactKey: Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Damage Text.prefab using Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeebd1e7f9b280ae13e659187892f970') in 0.005232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.319074 seconds.
+  path: Assets/Game/Charecter/Charecter.prefab
+  artifactKey: Guid(363847cb8996b4847a1e98df7b7dc598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Charecter/Charecter.prefab using Guid(363847cb8996b4847a1e98df7b7dc598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f3290084606a7718bfd431e3250398') in 0.013565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.762137 seconds.
+  path: Assets/Game/UI/InGameUI/Damage Text.prefab
+  artifactKey: Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Damage Text.prefab using Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b20e78804386a20bc55786bd6ac06bc') in 0.009689 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007865 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image Y:\Rishit\gameerssss\RPG Game ------- i will name it afterwards\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image Y:\Rishit\gameerssss\RPG Game ------- i will name it afterwards\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.383 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1384ms)
+		BeginReloadAssembly (265ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (92ms)
+		EndReloadAssembly (1066ms)
+			LoadAssemblies (152ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (520ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (408ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter
+This message parameter has to be of type: Collider
+The message will be ignored.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.5 MB.
+System memory in use after: 145.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3625.
+Total: 2.580400 ms (FindLiveObjects: 0.204200 ms CreateObjectMapping: 0.085300 ms MarkObjects: 2.213900 ms  DeleteObjects: 0.076100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 77.171769 seconds.
+  path: Assets/Game/UI/InGameUI/Damage Text.prefab
+  artifactKey: Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Damage Text.prefab using Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04bfe7a69a169d48dc0036e2edb9cdf') in 0.032223 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003177 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image Y:\Rishit\gameerssss\RPG Game ------- i will name it afterwards\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image Y:\Rishit\gameerssss\RPG Game ------- i will name it afterwards\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.458 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1459ms)
+		BeginReloadAssembly (181ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1188ms)
+			LoadAssemblies (168ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (331ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (535ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (428ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter
+This message parameter has to be of type: Collider
+The message will be ignored.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.6 MB.
+System memory in use after: 145.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3627.
+Total: 2.550200 ms (FindLiveObjects: 0.244100 ms CreateObjectMapping: 0.081800 ms MarkObjects: 2.207300 ms  DeleteObjects: 0.016000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 30.998282 seconds.
+  path: Assets/Game/UI/InGameUI/Damage Text.prefab
+  artifactKey: Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Damage Text.prefab using Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b11d805c499ad6282d86d15c7c1af90') in 0.027809 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004400 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image Y:\Rishit\gameerssss\RPG Game ------- i will name it afterwards\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image Y:\Rishit\gameerssss\RPG Game ------- i will name it afterwards\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.621 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1622ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1379ms)
+			LoadAssemblies (154ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (498ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (566ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (49ms)
-				ProcessInitializeOnLoadAttributes (299ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (471ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -197,14 +728,14 @@ Platform modules already initialized, skipping
 Script error: OnTriggerEnter
 This message parameter has to be of type: Collider
 The message will be ignored.
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3134 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 127.3 MB.
-System memory in use after: 127.5 MB.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.6 MB.
+System memory in use after: 145.8 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3610.
-Total: 3.741000 ms (FindLiveObjects: 0.218500 ms CreateObjectMapping: 0.090200 ms MarkObjects: 3.408400 ms  DeleteObjects: 0.022500 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3629.
+Total: 4.166800 ms (FindLiveObjects: 0.323700 ms CreateObjectMapping: 0.156800 ms MarkObjects: 3.664200 ms  DeleteObjects: 0.020400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -218,61 +749,147 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1539.874905 seconds.
-  path: Assets/Asset Packs/Synty - Polygon Student Sample/Textures/Texture_01_Vikings.png
-  artifactKey: Guid(0e16611dc4905bc40b3602e5077d5d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Textures/Texture_01_Vikings.png using Guid(0e16611dc4905bc40b3602e5077d5d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7f6982d99eeaa119283e43ff038ab2') in 0.154937 seconds 
+  Time since last request: 42.383669 seconds.
+  path: Assets/Game/Charecter/Charecter.prefab
+  artifactKey: Guid(363847cb8996b4847a1e98df7b7dc598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Charecter/Charecter.prefab using Guid(363847cb8996b4847a1e98df7b7dc598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e785992fb7d3023a3ec0b6149ba58474') in 0.074789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.007642 seconds.
+  path: Assets/Game/Charecter/Charecter.prefab
+  artifactKey: Guid(363847cb8996b4847a1e98df7b7dc598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Charecter/Charecter.prefab using Guid(363847cb8996b4847a1e98df7b7dc598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63760a23b06087255975afe7be21d127') in 0.008086 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004444 seconds.
+Registered in 0.003222 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image Y:\Rishit\gameerssss\RPG Game ------- i will name it afterwards\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image Y:\Rishit\gameerssss\RPG Game ------- i will name it afterwards\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.996 seconds
+- Completed reload, in  1.429 seconds
 Domain Reload Profiling:
-	ReloadAssembly (996ms)
+	ReloadAssembly (1429ms)
 		BeginReloadAssembly (142ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (62ms)
-		EndReloadAssembly (808ms)
-			LoadAssemblies (86ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1198ms)
+			LoadAssemblies (114ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (285ms)
+			SetupTypeCache (347ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (328ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (583ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (48ms)
-				ProcessInitializeOnLoadAttributes (265ms)
-				ProcessInitializeOnLoadMethodAttributes (3ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (470ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
 Script error: OnTriggerEnter
 This message parameter has to be of type: Collider
 The message will be ignored.
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 128.0 MB.
-System memory in use after: 128.2 MB.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.6 MB.
+System memory in use after: 145.8 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3629.
-Total: 2.696500 ms (FindLiveObjects: 0.238500 ms CreateObjectMapping: 0.077500 ms MarkObjects: 2.359900 ms  DeleteObjects: 0.019100 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3631.
+Total: 3.371100 ms (FindLiveObjects: 0.226300 ms CreateObjectMapping: 0.184100 ms MarkObjects: 2.916700 ms  DeleteObjects: 0.042700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 84.519060 seconds.
+  path: Assets/Game/UI/InGameUI/Damage Text.prefab
+  artifactKey: Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Damage Text.prefab using Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11942f9f09db2f49d4050a566ef8deac') in 0.036849 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.326740 seconds.
+  path: Assets/Game/UI/InGameUI/Damage Text.prefab
+  artifactKey: Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/Damage Text.prefab using Guid(89095e27d11f0c74d930d15728b7e2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99faf68351b5d85807c06ce73c6637f8') in 0.008702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.367093 seconds.
+  path: Assets/Game/UI/InGameUI/DamageTextSpawner.prefab
+  artifactKey: Guid(c68e22153239dee44a62605d470e4de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/UI/InGameUI/DamageTextSpawner.prefab using Guid(c68e22153239dee44a62605d470e4de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130c4b3aff58564f3d2418df5a76dcbb') in 0.012706 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008456 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image Y:\Rishit\gameerssss\RPG Game ------- i will name it afterwards\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image Y:\Rishit\gameerssss\RPG Game ------- i will name it afterwards\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.397 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2398ms)
+		BeginReloadAssembly (245ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (2025ms)
+			LoadAssemblies (202ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (697ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (107ms)
+			SetupLoadedEditorAssemblies (827ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (660ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Script error: OnTriggerEnter
+This message parameter has to be of type: Collider
+The message will be ignored.
+Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3137 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.6 MB.
+System memory in use after: 145.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3633.
+Total: 6.907500 ms (FindLiveObjects: 0.454200 ms CreateObjectMapping: 0.299400 ms MarkObjects: 6.107200 ms  DeleteObjects: 0.044000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
